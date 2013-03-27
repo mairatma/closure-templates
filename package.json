@@ -22,7 +22,8 @@
 	"test": "ant test"
     },
     "files": [
-        "bin/soy.jar",
-        "bin/soy-excluding-deps.jar"
+        "bin/",
+        "java/lib/",
+        "javascript/"
     ]
 }
