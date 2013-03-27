@@ -20,10 +20,5 @@
     },
     "scripts": {
 	"test": "ant test"
-    },
-    "files": [
-        "bin/",
-        "java/lib/",
-        "javascript/"
-    ]
+    }
 }
