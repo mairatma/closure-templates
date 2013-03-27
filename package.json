@@ -22,7 +22,7 @@
 	"test": "ant test"
     },
     "files": [
-        "build/soy.jar",
-        "build/soy-excluding-deps.jar"
+        "bin/soy.jar",
+        "bin/soy-excluding-deps.jar"
     ]
 }
