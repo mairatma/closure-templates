@@ -19,7 +19,6 @@
         "url" : "https://github.com/nicks"
     },
     "scripts": {
-        "preinstall": "ant jar jar-excluding-deps",
 	"test": "ant test"
     },
     "files": [
