@@ -14,8 +14,16 @@
         "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
     } ],
     "author" : {
-	"name" : "Nick Santos",
-	"email" : "nick@medium.com",
-	"url" : "https://github.com/nicks"
-    }
+        "name" : "Nick Santos",
+        "email" : "nick@medium.com",
+        "url" : "https://github.com/nicks"
+    },
+    "scripts": {
+        "preinstall": "ant jar jar-excluding-deps",
+	"test": "ant test"
+    },
+    "files": [
+        "build/soy.jar",
+        "build/soy-excluding-deps.jar"
+    ]
 }
