@@ -10,6 +10,12 @@ patches.
 
 The package number reflects the date the last merge was taken from.
 
+## NPM Package vs. Git Repo
+
+The Git repo contains a copy of the Closure Template source and a package that
+contains only the pre-built compiler jar and supporting files.  If you want access to
+just the jar you should depend on "closure-templates".
+
 ## Merging from the main project
 
 The 'pristine' branch contains only changes that we've pulled from the main repo.
