@@ -1,6 +1,6 @@
 {
   "name": "closure-templates",
-  "version": "20130326.0.0",
+  "version": "20130416.0.0",
   "keywords": [
     "javascript",
     "closure",
@@ -25,6 +25,7 @@
     "email": "nick@medium.com",
     "url": "https://github.com/nicks"
   },
+  "main": "soyfiles.js",
   "scripts": {
     "test": "ant test"
   }
